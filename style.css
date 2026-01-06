@@ -226,12 +226,14 @@ button {
   color: white;
 }
 section {
-  padding: 40px 20px;
+  padding: 60px 30px;
 }
-
 p {
+    margin-button:20px
+ }
   margin-bottom: 16px;
 }
+
 
 
 
