@@ -213,7 +213,7 @@ li {
   margin: 0 auto 20px auto;
 }
 :root {
-  --main-color: #66b32e;
+  --main-color: #1e90ff;
 }
 h1, h2, h3 {
   color: var(--main-color);
@@ -230,6 +230,7 @@ section {
 p {
   margin-bottom: 16px;
 }
+
 
 
 
