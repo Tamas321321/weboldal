@@ -202,9 +202,13 @@ li {
 }
 .main-image {
   width: 100%;
-  max-width: 2000px;
-  border: 5px solid red;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 }
+}
+
 
 
