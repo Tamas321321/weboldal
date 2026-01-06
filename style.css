@@ -44,8 +44,8 @@ img {
 }
 .box {
   background: white;
-  max-width: 500px;
-  margin: 30px auto;
+  max-width: 1000px;
+  margin:  auto;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -198,4 +198,5 @@ li {
     li {
         font-size: 16px;
     }
+
 }
