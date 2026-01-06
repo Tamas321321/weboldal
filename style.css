@@ -1,0 +1,201 @@
+body {
+    background-color: #acd83cff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #662a2aff;
+}
+
+p {
+    color: #170f49ff;
+    font-size: 16px;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.kartya {
+    background-color: white;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.menu {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+.box {
+  background: white;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+/* Kártyák egymás mellé */
+.box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Egy kártya kinézete */
+.kartya {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.kapcsolat-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.kapcsolat-form input,
+.kapcsolat-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.kapcsolat-form button {
+  background: #66b32e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.kapcsolat-form button:hover {
+  background: #558f25;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 6px;
+}
+
+.menu a.active {
+    background-color: white;
+    color: #6a8f2a;
+    border-radius: 6px;
+}
+.kartya {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kartya:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.kartya, .box {
+    background: #ffffff;
+    max-width: 520px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.kartya h2, .box h2 {
+    margin-top: 0;
+}
+
+.kartya p, .box p, .kartya li, .box li {
+    color: #333;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.menu a.active {
+    color: #ffd700;
+    font-weight: bold;
+    border-bottom: 2px solid #ffd700;
+}
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .box,
+    .kartya {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p,
+    li {
+        font-size: 16px;
+    }
+}
