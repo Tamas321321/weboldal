@@ -209,7 +209,7 @@ li {
 }
 .main-image {
   width: 100%;
-  max-width: 1200px;
+  max-width: 850px;
   height: auto;
   display: block;
   margin: 0 auto 20px auto;
@@ -233,6 +233,7 @@ p {
  }
   margin-bottom: 16px;
 }
+
 
 
 
