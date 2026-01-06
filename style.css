@@ -1,4 +1,9 @@
 body {
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
     background-color: #acd83cff;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -207,8 +212,18 @@ li {
   display: block;
   margin: 0 auto 20px auto;
 }
+:root {
+  --main-color: #66b32e;
 }
+h1, h2, h3 {
+  color: var(--main-color);
 }
+
+button {
+  background: var(--main-color);
+  color: white;
+}
+
 
 
 
