@@ -223,6 +223,13 @@ button {
   background: var(--main-color);
   color: white;
 }
+section {
+  padding: 40px 20px;
+}
+
+p {
+  margin-bottom: 16px;
+}
 
 
 
